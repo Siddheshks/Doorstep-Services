@@ -54,6 +54,7 @@ $(document).ready(function () {
     } // End if
   });
 
+
   $(".homeBtn").click(function (event) {
     if (this.hash !== "") {
       event.preventDefault();
